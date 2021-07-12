@@ -1,0 +1,15 @@
+{
+  "name": "voice-to-tune",
+  "version": "1.0.0",
+  "description": "Voice sounds interpreted at musical tune -i.e. midi",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "export NODE_ENV=''; sass ./scss:./css && tsc && electron .;",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zachary Ishmael",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.1.6"
+  }
+}
